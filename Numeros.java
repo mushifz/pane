@@ -4,9 +4,14 @@ public class Numeros {
         String numero1 = JOptionPane.showInputDialog("Ingresa el primer numero ");
         String numero2 = JOptionPane.showInputDialog("Ingresa el segundo numero ");
 
-        int numeroEntero1 = Integer.parseInt(numero1);
-        int numeroEntero2 = Integer.parseInt(numero2);
+        //Casting de numeros enteros
+        //int numeroEntero1 = Integer.parseInt(numero1);
+        //int numeroEntero2 = Integer.parseInt(numero2);
 
-        System.out.println(numeroEntero1 + numeroEntero2);
+        //Casting de numeros decimales
+        double numeroDecimal1 = Double.parseDouble(numero1);
+        double numeroDecimal2 = Double.parseDouble(numero2);
+
+        System.out.println("La suma es: " + (numeroDecimal1+numeroDecimal2));
     }
 }
