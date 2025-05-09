@@ -4,5 +4,7 @@ public class Conversion {
         double numero2 = 3.7;
         double resultado = numero1 + numero2;
         System.out.println(resultado);
+
+        //operaciones basicas con Joption panel
     }
 }
